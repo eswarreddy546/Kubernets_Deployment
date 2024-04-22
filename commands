@@ -1,0 +1,26 @@
+# kubernetes version
+kubectl version
+
+# get the kube components
+kubectl get all
+
+# check the nodes under k8s
+kubectl get nodes
+
+# kubectl api-versions − It prints the supported versions of API on the cluster.
+kubectl api-versions
+
+# to create a service / deployment.
+kubectl apply -f demo-deployment.yaml 
+
+# get the kube components
+kubectl get all
+
+# get the kube deployments
+kubectl get deploy
+
+# to delte kube deployments
+kubectl delete deploy demo-deployment
+
+# to delte kube services
+kubectl delete service demo-service
